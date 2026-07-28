@@ -43,7 +43,7 @@ print("6. Exit")
 
 while True:
     choice = input("\nEnter your choice (1-6): ")
-    match choice:
+    switch choice:
         case '1':
             item = input("Enter an element to push: ")
             array.push(item)
@@ -62,5 +62,5 @@ while True:
         case '6':
             print("Exiting program.")
             break
-        case _:
+        default:
             print("Invalid choice! Please choose between 1 and 6.")
