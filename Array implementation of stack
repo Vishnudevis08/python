@@ -55,12 +55,15 @@ while True:
                 print(f"Element {removed_element} is popped")
         case '3':
             print("The top element in stack:", array.peek())
+            break;
         case '4':
             array.display()
+            break;
         case '5':
             print("The size of the stack:", array.size())
+            break;
         case '6':
             print("Exiting program.")
-            break
+            break;
         default:
-            print("Invalid choice! Please choose between 1 and 6.")
+            print("Invalid choice! Please choose between 1 to 6.")
